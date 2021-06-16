@@ -22,11 +22,11 @@ header {
   justify-content: space-between;
 }
 
-main  {
+main {
   display: flex;
 }
 
-#evaluation-form  {
+#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;

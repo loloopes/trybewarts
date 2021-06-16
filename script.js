@@ -1,4 +1,4 @@
-const { RuleTester } = require("eslint");
+const { RuleTester } = require('eslint');
 
 function loginVerify() {
   const User = 'tryber@teste.com';
@@ -14,5 +14,3 @@ function loginVerify() {
 
 const logar = document.getElementById('logar');
 logar.addEventListener('click', loginVerify);
-
-// teste 
