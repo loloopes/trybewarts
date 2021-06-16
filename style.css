@@ -43,3 +43,12 @@ main {
 .first-forms input  {
   width: 330px;
 }
+
+.choose-family  {
+  flex-direction: column;
+}
+
+.second-forms {
+  display: flex;
+  justify-content: space-between;
+}
