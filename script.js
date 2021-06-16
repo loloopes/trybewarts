@@ -1,5 +1,3 @@
-const { RuleTester } = require('eslint');
-
 function loginVerify() {
   const User = 'tryber@teste.com';
   const Pass = '123456';
