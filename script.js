@@ -1,14 +1,17 @@
+const Pass = '123456';
+const User = 'tryber@teste.com';
+
 function loginVerify() {
-  const User = 'tryber@teste.com';
-  const Pass = '123456';
-  const login = document.getElementById('Login').value;
-  const senha = document.getElementById('Senha').value;
-  if (User === login && Pass === senha) {
+  if (User === document.getElementById('Login').value && Pass === document.getElementById('Senha').value) {
     alert('Olá, Tryber!');
   } else {
-    alert('Login ou senha inválidos.');
+    alert('Login e/ou senha inválidos.');
   }
 }
 
-const logar = document.getElementById('logar');
-logar.addEventListener('click', loginVerify);
+function checkMark() {
+  console.log(document.getElementById('agreement').value,'test')
+}
+
+document.getElementById('logar').addEventListener('click', loginVerify);
+document.getElementById('submit-btn').addEventListener('click', checkMark);
